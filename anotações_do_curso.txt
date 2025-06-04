@@ -1,29 +1,7 @@
-# ✅ O que é controle de versão?
-
-Técnica usada para gerenciar o histórico de mudanças no código-fonte.
-
-Permite registrar, reverter e comparar versões.
-Equipes podem trabalhar em diferentes versões do projeto ao mesmo tempo.
-Ferramentas comuns: Git, SVN.
-✅ O que é o Git?
-Sistema de controle de versão mais usado no mundo.
-
-Baseado em repositórios (locais ou remotos).
-Tem alta performance, é seguro (criptografia) e código aberto.
-💡 Dicas do curso
-Codifique junto com o curso.
-Crie exemplos próprios e teste variações.
-Ouça → Pratique!
-📦 O que é um repositório?
-É onde o código de um projeto é armazenado.
-
-Cada projeto geralmente tem um repositório.
-Pode ser hospedado em GitHub, Bitbucket etc.
-Cada dev pode baixar e trabalhar com sua própria cópia.
-🛠️ Criando repositórios
-Comando: git init
-
+- Criando repositórios
+Comando: <git init>
 Cria a pasta .git para gerenciar o projeto.
+
 A partir disso, a pasta vira um projeto Git.
 ☁️ Enviando repositórios para o GitHub
 Crie o projeto no GitHub.
