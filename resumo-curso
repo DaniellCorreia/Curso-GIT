@@ -1,0 +1,100 @@
+# ✅ O que é controle de versão?
+
+Técnica usada para gerenciar o histórico de mudanças no código-fonte.
+
+Permite registrar, reverter e comparar versões.
+Equipes podem trabalhar em diferentes versões do projeto ao mesmo tempo.
+Ferramentas comuns: Git, SVN.
+✅ O que é o Git?
+Sistema de controle de versão mais usado no mundo.
+
+Baseado em repositórios (locais ou remotos).
+Tem alta performance, é seguro (criptografia) e código aberto.
+💡 Dicas do curso
+Codifique junto com o curso.
+Crie exemplos próprios e teste variações.
+Ouça → Pratique!
+📦 O que é um repositório?
+É onde o código de um projeto é armazenado.
+
+Cada projeto geralmente tem um repositório.
+Pode ser hospedado em GitHub, Bitbucket etc.
+Cada dev pode baixar e trabalhar com sua própria cópia.
+🛠️ Criando repositórios
+Comando: git init
+
+Cria a pasta .git para gerenciar o projeto.
+A partir disso, a pasta vira um projeto Git.
+☁️ Enviando repositórios para o GitHub
+Crie o projeto no GitHub.
+Use o git init, depois sincronize e envie com git remote add e git push.
+Esse processo é feito uma vez por projeto.
+🔍 Verificando mudanças no projeto
+Comando: git status
+
+Mostra arquivos não rastreados, modificados ou prontos para commit.
+➕ Adicionando arquivos ao projeto
+Comando: git add
+
+Prepara arquivos para serem salvos no histórico.
+Pode ser feito para 1 ou vários arquivos.
+💾 Salvando alterações do projeto
+Comando: git commit
+
+Salva as mudanças com uma mensagem (-m) e pode ser com flag -a para todos.
+🚀 Enviando código ao repositório remoto
+Comando: git push
+
+Envia o código local para o GitHub ou outro servidor remoto.
+⬇️ Recebendo mudanças do repositório remoto
+Comando: git pull
+
+Atualiza seu código local com as mudanças do repositório remoto.
+📥 Clonando repositórios
+Comando: git clone <url>
+
+Baixa um repositório já existente para seu computador.
+🗑️ Removendo arquivos do repositório
+Comando: git rm <arquivo>
+
+Remove o arquivo do projeto e do controle do Git.
+📜 Histórico de alterações
+Comando: git log
+
+Lista todos os commits feitos no projeto.
+✏️ Renomeando arquivos
+Comando: git mv antigo novo
+
+Renomeia e mantém o arquivo sob controle do Git.
+🔙 Desfazendo alterações (arquivo específico)
+Comando: git checkout <arquivo>
+
+Volta o arquivo ao último estado salvo.
+🚫 Ignorando arquivos no projeto
+Crie o arquivo: .gitignore
+
+Lista arquivos/pastas que não devem ser rastreados, como logs ou configs locais.
+⚠️ Desfazendo todas as alterações
+Comando: git reset --hard
+
+Apaga tudo que foi alterado, inclusive commits pendentes.
+🌿 Trabalhando com Branches
+
+🌱 O que é um branch?
+Um branch é uma linha de desenvolvimento separada.
+
+O principal chama-se master ou main.
+Usamos branches para criar novas features sem afetar o código principal.
+👀 Criando e visualizando branches
+Ver branchs: git branch
+Criar branch: git branch nome-do-branch
+❌ Deletando branches
+Comando: git branch -d nome
+
+Usado quando o branch não é mais necessário.
+🔄 Mudando de branch
+Comando: git checkout -b nome
+
+Cria e troca para um novo branch.
+
+ Cuidado: arquivos não commitados podem ser levados ao trocar 
